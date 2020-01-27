@@ -19,7 +19,7 @@ common-js:
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   {% include head.html %}
 
-  <body>
+  <body onload="typeWriter()">
 
     {% include gtm_body.html %}
   
@@ -32,4 +32,21 @@ common-js:
     {% include footer-scripts.html %}
   
   </body>
+  <script>
+    var i = 0;
+    var text = '{{ page.subtitle }}';
+    var element_class = 'subtitle';
+    function typeWriter() {
+      if (i < text.length) {
+        if (text.charAt(i) == "\n") {
+          document.getElementById(element_class).innerHTML += "<br>";
+        } else {
+          document.getElementById(element_class).innerHTML += text.charAt(i);
+        }
+        i++;
+        setTimeout(typeWriter, 50);
+      }
+    }
+    </script>
+  
 </html>
