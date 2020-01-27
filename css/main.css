@@ -7,9 +7,9 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Arial', 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #21e6c1;
+  color: #2b2b2b;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
@@ -22,10 +22,11 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Glacial Indifference', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
+  font-family: 'Glacial Indifference', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: {{ site.link-col }};
 }
 a:hover,
@@ -106,7 +107,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col }};
+  background: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -265,7 +266,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
-  background-color: {{ site.footer-col }};
+  background: {{ site.footer-col }};
   {% if site.footer-img %}
   background-image: url({{ site.footer-img | relative_url }});
   background-attachment: fixed;
@@ -325,7 +326,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #21e6c1;
+  color: #2b2b2b;
 }
 
 .post-preview a:focus,
@@ -598,7 +599,7 @@ footer .theme-by {
   padding: 10px 5px;
   background-color: #FFF;
   border-radius: 0;
-  color: #21e6c1;
+  color: #2b2b2b;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
