@@ -35,15 +35,15 @@ avatar: "/img/profile.jpeg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "linear-gradient(171deg, rgba(151,246,233,1) 0%, rgba(71,215,250,1) 90%)"
-navbar-text-col: "#2b2b2b"
+navbar-col: "#252A2E"
+navbar-text-col: "#FAFBFC"
 navbar-children-col: "#1f4287"
-page-col: "#e3f5fa"
-link-col: "#278ea5"
-hover-col: "#0085A1"
-footer-col: "linear-gradient(171deg, rgba(151,246,233,1) 0%, rgba(71,215,250,1) 90%)"
-footer-text-col: "#2b2b2b"
-footer-link-col: "#278ea5"
+page-col: "#FFFFFD"
+link-col: "#0366D6"
+hover-col: "#3a93e8"
+footer-col: "#252A2E"
+footer-text-col: "#FAFBFC"
+footer-link-col: "#0366D6"
 page-text-col: "#2b2b2b"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
