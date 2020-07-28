@@ -33,8 +33,8 @@ Our society should work like an ecosystem, in symbiosis with nature.
 - ⚠️ Extreme adventures
 
 
-This is who I am.
-This is who I want to be.
+This is who I am.<br>
+This is who I want to be.<br>
 This is who I will become. 
 
 If you have interesting ideas and you want to discuss it, please join our community on [themana.it](https://www.themana.it).
