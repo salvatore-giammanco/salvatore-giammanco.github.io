@@ -18,7 +18,7 @@ I want to create technology, innovation and hope for a better future. And I will
 
 Our society should work like an ecosystem, in symbiosis with nature.
 
-### What are my values?
+### More of myself
 - ☮️ Atheist
 - 🏳️‍🌈 Love is love
 - ✅ Freedom
