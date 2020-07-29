@@ -27,7 +27,7 @@ Our society should work like an ecosystem, in symbiosis with nature.
 
 ### And what about my free time?
 - 🚴 Sports: slackline, kung-fu, running, biking
-- 🚑 Volunteering on ambulance
+- 🚑 EMT Volunteer
 - ✈️ Travelling, hiking, trekking
 - 📷 Photography
 - ⚠️ Extreme adventures
