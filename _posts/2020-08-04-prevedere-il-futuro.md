@@ -28,7 +28,7 @@ Ovviamente il **distacco** tra le due discipline è ancora molto **ampio**, tutt
 Abbiamo iniziato a sviluppare la Psicostoria di Asimov, 20.000 anni in anticipo rispetto a quando lui stesso scrisse che sarebbe successo.
 
 ## Per concludere
-Queste parole non pretendono di detenere alcuna verità, vogliono solo essere da spunto, da punto di partenza per la formulazione di **nuove idee** che, si spera, possano portare un **miglioramento** della società in cui viviamo.
+Queste parole non pretendono di detenere alcuna verità, vogliono solo essere da spunto, da punto di partenza per la formulazione di **nuove idee** che, si spera, possano portare ad un **miglioramento** della società in cui viviamo.
 
 
 _Se hai trovato questo articolo interessante, o se hai altre idee innovative di cui vorresti discutere, entra a far parte della nostra community [The Mana](https://themana.it/), e unisciti al nostro [gruppo telegram](https://t.me/TheMana_it_group)._
