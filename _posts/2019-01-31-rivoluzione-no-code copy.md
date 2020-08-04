@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cos'è la rivoluzione no-code?
+title: 🇮🇹 Cos'è la rivoluzione no-code?
 subtitle: Il futuro del software è no-code
 published: true
 ---
