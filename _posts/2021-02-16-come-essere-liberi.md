@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🇮🇹 Tutorial: come essere liberi"
-published: true
+published: false
 ---
 
 Fin da quando ho memoria, ho sempre pensato di essere speciale, e che prima o poi nella vita avrei fatto qualcosa di talmente grandioso che il mondo intero mi sarebbe stato riconoscente. Credevo di essere libero, di poter fare qualsiasi cosa. Sentivo un potere in me, una forza immensa che generava curiosità e voglia di fare meglio degli altri: quella forza era ciò che mi rendeva speciale.
