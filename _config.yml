@@ -21,7 +21,7 @@ description: A virtual proof that I'm awesome
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Contact Me: "https://www.linkedin.com/in/salvatore-giammanco-04530131/"
+  Contact Me: "contactme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
