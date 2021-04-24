@@ -1,0 +1,3004 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields:
+      - name: layout
+        type: string
+      - name: title
+        type: string
+      - name: published
+        type: boolean
+      - name: subtitle
+        type: string
+  page_1:
+    type: page
+    label: Page 1
+    match: '*'
+    fields:
+      - name: layout
+        type: string
+      - name: title
+        type: string
+      - name: subtitle
+        type: string
+        label: Subtitle
+  social_networks:
+    type: data
+    label: Social Networks
+    file: SocialNetworks.yml
+    fields:
+      - type: object
+        name: facebook
+        label: Facebook
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: github
+        label: Github
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: twitter
+        label: Twitter
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: reddit
+        label: Reddit
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: email
+        label: Email
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: linkedin
+        label: Linkedin
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: xing
+        label: Xing
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: stackoverflow
+        label: Stackoverflow
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: snapchat
+        label: Snapchat
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: instagram
+        label: Instagram
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: youtube
+        label: Youtube
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: spotify
+        label: Spotify
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: telephone
+        label: Telephone
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: rss
+        label: Rss
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: steam
+        label: Steam
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: twitch
+        label: Twitch
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+      - type: object
+        name: yelp
+        label: Yelp
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: baseURL
+            label: Base URL
+          - type: string
+            name: icon
+            label: Icon
+  ui_text:
+    type: data
+    label: Ui Text
+    file: ui-text.yml
+    fields:
+      - type: object
+        name: en
+        label: En
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: en-US
+        label: En US
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: en-CA
+        label: En CA
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: en-GB
+        label: En GB
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: en-AU
+        label: En AU
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: es
+        label: Es
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: es-ES
+        label: Es ES
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: es-CO
+        label: Es CO
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: fr
+        label: Fr
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: fr-FR
+        label: Fr FR
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: fr-BE
+        label: Fr BE
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: fr-CH
+        label: Fr CH
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: tr
+        label: Tr
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: tr-TR
+        label: Tr TR
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: pt
+        label: Pt
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: pt-PT
+        label: Pt PT
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: pt-BR
+        label: Pt BR
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: it
+        label: It
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: it-IT
+        label: It IT
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: zh
+        label: Zh
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: zh-CN
+        label: Zh CN
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: zh-SG
+        label: Zh SG
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: zh-TW
+        label: Zh TW
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: zh-HK
+        label: Zh HK
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de
+        label: De
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: de-DE
+        label: De DE
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de-AT
+        label: De AT
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de-CH
+        label: De CH
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de-BE
+        label: De BE
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de-LI
+        label: De LI
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: de-LU
+        label: De LU
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: ne
+        label: Ne
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: ne-NP
+        label: Ne NP
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: ko
+        label: Ko
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: ko-KR
+        label: Ko KR
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: ru
+        label: Ru
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: ru-RU
+        label: Ru RU
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: lt
+        label: Lt
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: lt-LT
+        label: Lt LT
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: gr
+        label: Gr
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: gr-GR
+        label: Gr GR
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: sv
+        label: Sv
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: sv-SE
+        label: Sv SE
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: sv-FI
+        label: Sv FI
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: nl
+        label: Nl
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: nl-BE
+        label: Nl BE
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: nl-NL
+        label: Nl NL
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: id
+        label: Id
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: id-ID
+        label: Id ID
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: vi
+        label: Vi
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: vi-VN
+        label: Vi VN
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: da
+        label: Da
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: da-DK
+        label: Da DK
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: pl
+        label: Pl
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: pl-PL
+        label: Pl PL
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: ja
+        label: Ja
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: ja-JP
+        label: Ja JP
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: sk
+        label: Sk
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: sk-SK
+        label: Sk SK
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: hu
+        label: Hu
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: hu-HU
+        label: Hu HU
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: ro
+        label: Ro
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: ro-RO
+        label: Ro RO
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
+      - type: object
+        name: pa
+        label: Pa
+        fields:
+          - type: string
+            name: comments_label
+            label: Comments Label
+          - type: string
+            name: comments_title
+            label: Comments Title
+          - type: string
+            name: comment_form_info
+            label: Comment Form Info
+          - type: string
+            name: comment_form_comment_label
+            label: Comment Form Comment Label
+          - type: string
+            name: comment_form_md_info
+            label: Comment Form Md Info
+          - type: string
+            name: comment_form_name_label
+            label: Comment Form Name Label
+          - type: string
+            name: comment_form_email_label
+            label: Comment Form Email Label
+          - type: string
+            name: comment_form_website_label
+            label: Comment Form Website Label
+          - type: string
+            name: comment_btn_submit
+            label: Comment Btn Submit
+          - type: string
+            name: comment_btn_submitted
+            label: Comment Btn Submitted
+          - type: string
+            name: comment_success_msg
+            label: Comment Success Msg
+          - type: string
+            name: comment_error_msg
+            label: Comment Error Msg
+      - type: object
+        name: pa-IN
+        label: Pa IN
+        fields:
+          - type: object
+            name: '<<'
+            label: ''
+            fields:
+              - type: string
+                name: comments_label
+                label: Comments Label
+              - type: string
+                name: comments_title
+                label: Comments Title
+              - type: string
+                name: comment_form_info
+                label: Comment Form Info
+              - type: string
+                name: comment_form_comment_label
+                label: Comment Form Comment Label
+              - type: string
+                name: comment_form_md_info
+                label: Comment Form Md Info
+              - type: string
+                name: comment_form_name_label
+                label: Comment Form Name Label
+              - type: string
+                name: comment_form_email_label
+                label: Comment Form Email Label
+              - type: string
+                name: comment_form_website_label
+                label: Comment Form Website Label
+              - type: string
+                name: comment_btn_submit
+                label: Comment Btn Submit
+              - type: string
+                name: comment_btn_submitted
+                label: Comment Btn Submitted
+              - type: string
+                name: comment_success_msg
+                label: Comment Success Msg
+              - type: string
+                name: comment_error_msg
+                label: Comment Error Msg
