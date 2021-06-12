@@ -6,6 +6,8 @@ published: true
 
 ![Nintendo DS](../img/nds/nds.png)
 
+*In order to make a game for Nintendo DS, you should have some knowledge of `C` and `C++`.*
+
 Before starting to code for our beloved Nintendo DS, we need some tools, like the right compiler (kindly provided by [devkitPro](https://devkitpro.org/)) and the right libraries.
 
 ## Step 1. Download and install devkitPro pacman
@@ -80,6 +82,7 @@ Now, if everything went well, in your `hello_world` directory there's a `hello_w
 ## Step 5. Have fun!
 
 Now you can code your personal Nintendo DS game. Here's the documentation of `libnds`, it will be useful: [https://libnds.devkitpro.org/](https://libnds.devkitpro.org/).
+Feel free to open `source/main.cpp` file and make some experiments! If yu don't have any C++ IDE, i suggest CLion by JetBrains, or if you don't want to pay (or you're not at university) you can youse Visual Studio Code.
 
 ## Issues
 
