@@ -4,7 +4,7 @@ title: "🇬🇧 How to make Nintendo DS games in 2021"
 published: true
 ---
 
-![Nintendo DS](../img/nds/nds.jpg)
+![Nintendo DS](../img/nds/nds.png)
 
 Before starting to code for our beloved Nintendo DS, we need some tools, like the right compiler (kindly provided by [devkitPro](https://devkitpro.org/)) and the right libraries.
 
@@ -75,7 +75,7 @@ make
 
 Now, if everything went well, in your `hello_world` directory there's a `hello_world.nds` file. Open this with your emulator, and you're done!
 
-![Hello world](../img/nds/hello_world.jpg)
+![Hello world](../img/nds/hello_world.png)
 
 ## Step 5. Have fun!
 
