@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🇬🇧 How to develop Nintendo DS games in 2021"
+title: "🇬🇧 How to make Nintendo DS games in 2021"
 published: true
 ---
 
