@@ -22,7 +22,7 @@ DEVKITARM=$DEVKITPRO/devkitARM
 PATH=$PATH:$DEVKITARM/bin
 ```
 
-*If you don't know how to do it, just google "how to set environment variables on <your OS>".*
+*If you don't know how to do it, just google* `how to set environment variables on <your OS>`.
 
 ## Step 2. Install devkitARM and NDS libraries
 
